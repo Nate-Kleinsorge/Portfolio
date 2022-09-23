@@ -27,6 +27,25 @@
     margin-right: 10%;
 }
 
+.flex-section {
+    display: flex;
+    flex-flow: row wrap 150px;
+    justify-content: space-evenly;
+}
+
+a img {
+    width: 150px;
+    height: 150px;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    border: 2px solid white;
+    width: 250px;
+    height: 250px;
+}
+
 .work h2{
     position: relative;
     margin-top: -30px;
@@ -51,4 +70,38 @@
     margin-right: 150px;
     background-color: magenta;
     border: 5px solid white;
+}
+
+.back-image {
+    margin-top: 100px;
+}
+
+#ray {
+    border: 5px solid white;
+    margin: 30px;
+    width: 500px;
+    height: 666px;
+}
+
+header {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    border: 5px solid white;
+}
+
+header h1 {
+    text-align: left;
+    font-size: 44px;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+header a {
+    margin-top: 43px;
+    font-size: larger;
 }

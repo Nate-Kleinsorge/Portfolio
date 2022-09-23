@@ -8,36 +8,56 @@
     <title>Portflio</title>
 </head>
 <body>
-    <header>
+    <header class="flex">
         <h1>NATE KLEINSORGE</h1>
-        
+        <a href="#about-me">About Me</a>
+        <a href="#work">Work</a>
+        <a href="#contact-box">Contact</a>
     </header>
     <main>
-        <section class="about-me">
+        <section class="back-image">
+            <img src="./assets/ray.jpg" id="ray" alt="picture of a shark squishmallow">
+        </section>
+        <section class="about-me" id="about-me">
             <h2>About me</h2>
             <p>I have recently began coding while i was enrolled at Western Michigan
                 University. With one year of Python experience under my belt, I am working on
             my HTML CSS and Javascrpt. I was lucky enough to be enrolled in a Michigan State Bootcamp
             centered around helping us become web developers.</p>
         </section>
-        <section class="work">
+
+        <section class="work" id="work">
             <h2>Images of developers application</h2>
-            <div class="card">
-                <a href="Nate-Kleinsorge.github.io/challenge_01">Challenge 1</a>
-            </div>
-            <div class="card">
-                <a href="https://www.coolmathgames.com/0-fireboy-and-water-girl-in-the-forest-temple">F and W</a>
-            </div>
-            <div class="card">
-                <a href="https://www.webkinz.com/">webkinz</a>
-            </div>
-            <div class="card">
-                <a href="https://www.tasteofhome.com/recipes/bacon-cauliflower-salad/">Bacon Cauliflower Salad</a>
-            </div>
+            <section class="flex-section">
+                <div class="card" id="Challenge_01">
+                    <a href="Nate-Kleinsorge.github.io/challenge_01">
+                        <h3>Challenge 01</h3>
+                        <img src="./assets/challenge_01.jpg">
+                    </a>
+                </div>
+                <div class="card" id="f-w">
+                    <a href="https://www.coolmathgames.com/0-fireboy-and-water-girl-in-the-forest-temple">
+                        <h3>Fireboy and Watergirl</h3>
+                        <img src="./assets/F_W.png">
+                    </a>
+                </div>
+                <div class="card" id="webkin">
+                    <a href="https://www.webkinz.com/">
+                        <h3>Webkinz</h3>
+                        <img src="./assets/webkinz.jpg">
+                    </a>
+                </div>
+                <div class="card" id="b-c-s">
+                    <a href="https://www.tasteofhome.com/recipes/bacon-cauliflower-salad/">
+                        <h3>Bacon Cauliflower Salad</h3>
+                        <img src="./assets/b-c-s.jpg">
+                    </a>
+                </div>
+            </section>
         </section>
-        <section class="contact-box">
+        <section class="contact-box" id="contact-box">
             <h2>Contact Me</h2>
-            <form>
+            <form class="contact-form">
                 <label for="fname">Name:</label>
                 <input type="text" id="fname" name="fname">
                 <label for="femail">Email:</label>
